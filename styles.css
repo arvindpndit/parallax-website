@@ -2,12 +2,9 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
-
-html{
     scroll-behavior: smooth;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}    
+} 
 
 #wrapper{
     height:100vh;
@@ -67,7 +64,13 @@ section{
 .jumps{
     font-size: 2rem;
     padding: 0 10rem;
-    color: white;
+}
+
+.jumps a{
+    text-decoration: none;
+    padding: 0.7rem;
+    color: black;
+    background-color: aqua;
 }
 
 
